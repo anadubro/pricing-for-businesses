@@ -1,1 +1,73 @@
+.pricing__heading {
+  text-align: center;
+  line-height: 1;
+  margin: 137px 0 72px 0;
+}
 
+.pricing__heading h1{
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 17px;
+  line-height: 1.05em;
+}
+
+.pricing__heading p{
+  font-size: 22px;
+  font-weight: 400;
+  color: #5D7085;
+  letter-spacing: 0.019em;
+}
+
+.pricing__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+
+.pricing__card-list-item {
+  max-width: 266px;
+  width: 100%;
+  min-height: 601px;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 58px 32px 36px 31px;
+}
+
+.card__pesonal {
+  background: #FDC624;
+  background: linear-gradient(180deg,rgba(253, 198, 36, 1) 0%, rgba(230, 196, 52, 1) 100%);
+}
+
+.card__business {
+  background: #55DCE7;
+  background: linear-gradient(180deg,rgba(85, 220, 231, 1) 0%, rgba(61, 202, 212, 1) 100%);
+}
+
+.card__developer {
+  background: #6BDFFF;
+  background: linear-gradient(180deg, rgba(107, 223, 255, 1) 0%, rgba(61, 172, 252, 1) 100%);
+}
+
+.card__agency {
+  background: #BFCEDC;
+  background: linear-gradient(180deg, rgba(191, 206, 220, 1) 0%, rgba(147, 159, 179, 1) 100%);
+}
+
+.card__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card__button {
+  margin-top: auto;
+}

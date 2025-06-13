@@ -5,9 +5,16 @@
 .card__popular-marker {
   width: 100%;
   position: absolute;
-  text-align: center;
   top: 0;
   left: 0;
+  padding: 9px 0 6px 0;
+}
+
+.card__popular-text {
+  background-image: url(../images/popular.svg);
+  background-repeat: no-repeat;
+  background-position: 4em top;
+  text-align: center;
 }
 
 .pricing__heading {
@@ -52,6 +59,8 @@
   color: #fff;
 }
 
+/* Фоновый градиент карточек */
+
 .card__pesonal {
   background: #FDC624;
   background: linear-gradient(180deg,rgba(253, 198, 36, 1) 0%, rgba(230, 196, 52, 1) 100%);
@@ -72,6 +81,8 @@
   background: linear-gradient(0deg, rgba(147, 159, 179, 1) 0%, rgba(191, 206, 220, 1) 100%);
 }
 
+/* Градиент для вставки Популярной карточки */
+
 .card__pesonal > .card__popular-marker {
   background: linear-gradient(0deg, rgb(232 196 45) 0%, rgb(250 197 38) 100%);
 }
@@ -88,6 +99,8 @@
 .card__agency > .card__popular-marker {
   background: linear-gradient(0deg, rgb(180 194 218) 0%, rgba(191, 206, 220, 1) 100%);
 }
+
+/* Изменение кнопки при наведении */
 
 .card__pesonal > .card__button:hover {
   color:#E6C434;

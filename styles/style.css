@@ -13,8 +13,12 @@
 .card__popular-text {
   background-image: url(../images/popular.svg);
   background-repeat: no-repeat;
-  background-position: 4em top;
+  background-position: 5.9em top;
   text-align: center;
+  padding-left: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
 }
 
 .pricing__heading {

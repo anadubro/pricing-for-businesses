@@ -96,7 +96,6 @@
 }
 
 .card__developer > .card__popular-marker {
-  background: #63D6FE;
   background: linear-gradient(0deg,rgba(99, 214, 254, 1) 0%, rgba(93, 212, 248, 1) 100%);
 }
 
@@ -106,24 +105,24 @@
 
 /* Изменение кнопки при наведении */
 
+.card__button:hover {
+  background-color: #fff;
+}
+
 .card__pesonal > .card__button:hover {
   color:#E6C434;
-  background-color: #fff;
 }
 
 .card__business > .card__button:hover {
   color:#3DCAD4;
-  background-color: #fff;
 }
 
 .card__developer > .card__button:hover {
   color:#3DACFC;
-  background-color: #fff;
 }
 
 .card__agency > .card__button:hover {
   color:#939FB3;
-  background-color: #fff;
 }
 
 .card__image {
